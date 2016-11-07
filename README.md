@@ -1,2 +1,2 @@
-# beast2
-Beast 2 agave &amp; docker package
+# beast
+Agave Docker app for BEAST phylo package
