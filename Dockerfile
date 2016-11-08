@@ -17,11 +17,11 @@ RUN make install
 ENV LD_LIBRARY_PATH=/usr/local/lib
 
 WORKDIR /root
-RUN wget https://github.com/beast-dev/beast-mcmc/releases/download/v1.8.3/BEASTv1.8.3.tgz
-RUN tar -xvzf BEASTv1.8.3.tgz
+RUN wget https://github.com/CompEvol/beast2/releases/download/v2.4.3/BEAST.v2.4.3.Linux.tgz
+RUN tar -xvzf BEAST.v2.4.3.Linux.tgz
 
-RUN cp BEASTv1.8.3/bin/* /usr/local/bin
-RUN cp BEASTv1.8.3/lib/* /usr/local/lib
+RUN cp beast/bin/* /usr/local/bin
+RUN cp beast/lib/* /usr/local/lib
 
 COPY runbeast.sh /tmp/runbeast.sh
 RUN chmod ugo+x /tmp/runbeast.sh

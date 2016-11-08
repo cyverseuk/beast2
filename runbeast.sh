@@ -1,3 +1,3 @@
 #!/bin/bash
 
-beast "$@"
+beast -threads -1 -beagle "$@"
