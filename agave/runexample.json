@@ -4,6 +4,6 @@
   "archive" : "true",
   "batchQueue" : "normal",
   "inputs" : {
-    "xml_file" : "agave://cyverseUK-Storage2/beast2/demo_data/primates.xml"
+    "xml_file" : "agave://cyverseUK-Storage2/beast2/demo_data/testGTR.xml"
   }
 }
